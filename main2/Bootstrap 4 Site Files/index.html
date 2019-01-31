@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../ani.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <span class="sticky-top text-light" style="padding-left:1em;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <img src="../../doc/logo4.png"></span>
+
+<!-- <nav class="navbar navbar-expand-md navbar-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../../doc/creative2.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Connect</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+<!-- <div class="container"> -->
+<!--- Image Slider -->
+<div class="container-fluid heading">
+  <div class="row text-center justify-content-center">
+    <h1 class="display-2 col-12">Creative Realtime Board</h1>
+    <h3 class="col-12">Realtime Idea Sharing Online Whiteboard</h3>
+    <br>
+    <button type="button" class="col-xs-2 btn btn-outline-light btn-lg">VIEW DEMO</button>
+    <button type="button" class="col-xs-2 btn btn-primary btn-lg">Get Started</button>
+  </div>
+</div>
+  <div class="waveWrapper waveAnimation">
+    <div class="waveWrapperInner bgTop">
+      <div class="wave waveTop"></div>
+    </div>
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom"></div>
+    </div>
+  </div>
+
+
+<!-- <div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ul>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../../doc/64857.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="../../doc/74948.jpg">
+    </div>
+  </div>
+</div> -->
+
+<!--- Jumbotron -->
+<!-- <div class="container-fluid">
+  <div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+      <p class="lead">
+      When can the above duck doom the husband? A movie volunteers into the following changeover. A corn trusts an attractive sister. When will the curse rock after a sincere socket?</p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+      <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+    </div>
+  </div>
+</div> -->
+
+<!--- Welcome Section -->
+<div class="container-fluid padding text-light use">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Bulit with ease.</h1>
+    </div>
+    <hr>
+    <div class="col-12">
+      <p class="lead">When will the curse rock after a sincere socket? The lay representative honors a smile with the unspecified sufferer. A reluctant epic plays with an arc beside the frequent leisure.</p>
+    </div>
+  </div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding text-light use">
+  <div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4 border border-light rounded">
+      <i class="fab fa-angular"></i>
+      <h3>ANGULAR</h3>
+      <p>Angular is a TypeScript-based open-source front-end web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 border border-light rounded">
+      <i class="fas fa-bold"></i>
+      <h3>BOOTSTRAP</h3>
+      <p>Bootstrap is a free and open-source front-end framework for developing websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.</p>
+    </div>
+    <div class="col-12 col-md-4 border border-light rounded">
+<!--       <i class="fab fa-firebase"></i> -->
+      <img class="fire" src="../../doc/firebase.png">
+      <h3>FIREBASE</h3>
+      <p>Firebase is a mobile and web application development platform developed by Firebase, Inc. in 2011, then acquired by Google in 2014. As of October 2018, the Firebase platform has 18 products, which are used by 1.5 million apps.</p>
+    </div>
+  </div>
+  <hr class="my-4">
+</div>
+<!-- </div> -->
+<!--- Two Column Section -->
+<!-- <div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-lg-6">
+      <h2>If you build it...</h2>
+      <p>When will the curse rock after a sincere socket? The lay representative honors a smile with the unspecified sufferer. A reluctant epic plays with an arc beside the frequent leisure.</p>
+      <p>When will the curse rock after a sincere socket? The lay representative honors a smile with the unspecified sufferer. A reluctant epic plays with an arc beside the frequent leisure.</p>
+      <p>When will the curse rock after a sincere socket? The lay representative honors a smile with the unspecified sufferer. A reluctant epic plays with an arc beside the frequent leisure.</p>
+      <br>
+      <a href="#" class="btn btn-primary">Learn more</a>
+    </div>
+    <div class="col-lg-6">
+      <img src="img/desk.png" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<hr class="my-4">
+- Fixed background
+<figure>
+  <div class="fixed-warp">
+    <div id="fixed">
+    </div>
+  </div>
+</figure> -->
+
+<!--- Emoji Section -->
+
+
+<!--- Meet the team -->
+<div class="container-fluid padding text-light">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Meet the Team</h1>
+    </div>
+    <hr>
+  </div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-lg-3 col-md-2 col-sm-0"></div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card">
+        <img class="card-img-top" src="../../doc/programmer_mode2.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">Jimyung Park</h4>
+          <p class="card-text">Jim is the front-end developer who's just copy & paste whole bunch of craps from web!</p>
+          <a href="#" class="btn btn-outline-secondary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card">
+        <img class="card-img-top" src="../../doc/programmer_mode.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">Nick Zachary</h4>
+          <p class="card-text">Nick is the full-stack developer who's awesome enough to create pretty much everything!</p>
+          <a href="#" class="btn btn-outline-secondary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-2 col-sm-0"></div>
+  </div>
+</div>
+
+
+<!--- Two Column Section -->
+<hr class="my-4">
+
+<!--- Connect -->
+<div class="container-fluid padding bg-light">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h2>Connect</h2>
+    </div>
+    <div class="container col-12 social padding">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+
+<!--- Footer -->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="img/w3newbie.png">
+        <hr class="light">
+        <p>403-891-4711</p>
+        <p>email@hotmail.com</p>
+        <p>city, state, 000000</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>Our hours</h5>
+        <hr class="light">
+        <p>Monday: 9am - 5pm</p>
+        <p>Satuday: 10am - 4pm</p>
+        <p>Sunday: closed</p>
+      </div>      <div class="col-md-4">
+        <hr class="light">
+        <h5>Service Area</h5>
+        <hr class="light">
+        <p>city, state, 000000</p>
+        <p>city, state, 000000</p>
+        <p>city, state, 000000</p>
+        <p>city, state, 000000</p>
+      </div>
+      <div class="col-12">
+        <hr class="light-100">
+        <h5>&copy; w3newbie.com</h5>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<script type="text/javascript" src="navbar.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+ <!--- Check out my Bootstrap 4 Courses! -->
+<!--  <div style="float:left; max-width: 46%; margin: 2%; padding: 10px; border: 10px solid #666;">
+  <a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.2rem; font-family: sans-serif; padding: 1rem; color: #1ba892; letter-spacing: .1rem;">Learn Bootstrap 4 By Creating An Advanced Bootstrap Theme</h1></a>
+  <a href="http://bit.ly/advanced-bootstrap-course " target="_blank"><img style="max-width: 100%;"src="https://www.w3newbie.com/wp-content/uploads/nuno-udemy-thumbnail.png"></a>
+  <a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.5rem; font-family: sans-serif; padding: 2rem; color: #1ba892; letter-spacing: .1rem;">{  94% OFF Coupon Link:  "NUNO93"  }</h1></a>
+</div>
+
+<div style="float:right; max-width: 46%; margin: 2%; padding: 10px; border: 10px solid #666;">
+  <a href="http://bit.ly/NESTCOURSE93" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.3rem; font-family: sans-serif; padding: 1rem; color: #674FE3; letter-spacing: .1rem;">Bootstrap 4 Website Build From Scratch In 3 Hours</h1></a>
+  <a href="http://bit.ly/NESTCOURSE93" target="_blank"><img style="max-width: 100%;"src="https://www.w3newbie.com/wp-content/uploads/bootstrap-theme-couse.png"></a>
+  <a href="http://bit.ly/NESTCOURSE93" target="_blank" style="text-decoration: none;"><h1 style="text-align: center; font-size: 1.5rem; font-family: sans-serif; padding: 2rem; color: #674FE3; letter-spacing: .1rem;">{  93% OFF Coupon Link:  "NEST93"  }</h1></a>
+</div> -->
+<!--- Check out my Bootstrap 4 Courses! -->
+
+

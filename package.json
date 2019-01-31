@@ -1,0 +1,29 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "drawerjs": "^1.0.5",
+    "jquery": "^3.3.1",
+    "paper": "^0.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totoshop47/Fianl-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totoshop47/Fianl-Project/issues"
+  },
+  "homepage": "https://github.com/totoshop47/Fianl-Project#readme"
+}
