@@ -1,0 +1,57 @@
+body {
+  font: 14px/18px Arial, sans-serif;
+  text-align: center;
+  background-color: #efefef;
+}
+
+/*--------------------------------------------------------------
+      TOOLBAR - BOTTOM
+--------------------------------------------------------------*/
+
+.toolbar.bottom {
+  padding:0;
+  display: flex;
+  height: fit-content;
+  width: 8em;
+  position: absolute;
+  right: 0.5em;
+  top: 51.5em;
+  box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+}
+
+.toolbar li {
+  list-style: none;
+  width: 100%;
+}
+
+.toolbar a{
+  margin: 0;
+  background: #fff;
+  border-left: 1px solid rgba(255,255,255,.3);
+  border-right: 1px solid rgba(255,255,255,.3);
+  color: #222;
+  display: block;
+  font-size: 1.5em;
+  line-height: 2.2em;
+  text-decoration: none;
+}
+
+.toolbar.bottom li:first-child a {
+  border-radius:4px 0 0 4px;
+}
+
+.toolbar.bottom li:last-child a {
+  border-radius:0 4px 4px 0;
+}
+
+.toolbar a:hover {
+  background: #328dfc;
+  color: #fff;
+  text-shadow: 0 1px 0 #666;
+}
+.toolbar a:active{
+  background: #2367ba;
+  box-shadow: 0 2px 3px rgba(0,0,0,.3) inset;
+  text-shadow: 0 -1px 0 #666;
+}
+

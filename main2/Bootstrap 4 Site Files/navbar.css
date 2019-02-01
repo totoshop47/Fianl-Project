@@ -13,6 +13,7 @@
 }
 
 .sidenav a {
+
   opacity: 1;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -24,7 +25,11 @@
 
 .sidenav a:hover {
   opacity: 1;
-  color: #aaa;
+  color: #ddd;
+}
+
+.sidenav .menu a:hover {
+  background: #333;
 }
 
 .sidenav .closebtn {
