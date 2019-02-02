@@ -2,22 +2,27 @@ body {
   font: 14px/18px Arial, sans-serif;
   text-align: center;
   background-color: #efefef;
+  display: block;
+  margin: 8px;
 }
 
 /*--------------------------------------------------------------
        TOOLBAR - TOP
 --------------------------------------------------------------*/
 
+ul {
+  margin-top: 8px;
+}
+
 .logo3 {
   position: absolute;
   left: 15em;
-  top: 1.3em;
+  top: 1em;
 }
 
 .toolbar.top {
   top: 0;
   display: flex;
-  /*margin:0 0 0 5em;*/
   padding: 0;
   position:absolute;
   width:13.5em;
