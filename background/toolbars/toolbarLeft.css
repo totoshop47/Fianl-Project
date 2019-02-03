@@ -55,3 +55,51 @@ body {
   text-shadow: 0 -1px 0 #666;
 }
 
+/*---------------------------
+      Dropdown Menu
+---------------------------*/
+
+.dropright .dropdown-toggle::after {
+  display: none;
+}
+
+.dropright .dropdown-menu {
+  border-radius: 4px;
+}
+
+.dropright .dropdown-menu.show {
+  box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+  /*border-radius: 4px;*/
+  border: 1px solid rgba(255,255,255,.3);
+  height: fit-content;
+  display: flex;
+  padding: 0;
+}
+
+.dropright .dropdown-menu.show li:first-child a {
+  border-radius:4px 4px 0 0;
+}
+
+.dropright .dropdown-menu.show li:last-child a {
+  border-radius:0 0 4px 4px;
+}
+
+.dropright .dropdown-menu.show a:hover {
+  background: #328dfc;
+  color: #fff;
+  text-shadow: 0 1px 0 #666;
+}
+.dropright .dropdown-menu.show a:active{
+  background: #2367ba;
+  box-shadow: 0 2px 3px rgba(0,0,0,.3) inset;
+  text-shadow: 0 -1px 0 #666;
+}
+
+.dropright .dropdown-item {
+  display: flex;
+  padding: 8px 8px;
+}
+
+
+
+
