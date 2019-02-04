@@ -1,35 +1,31 @@
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   color: #222;
 }
 
-.logo {
-  padding: 0.5em;
-}
-
-.use{
+.use {
   height: 50%;
-  overflow: hidden;
+  /*overflow: scroll;*/
   background: rgba(0,0,0,0.5);
+  /*position: absolute;*/
+  /*top: 49.4em;*/
 }
 
 .heading {
-  height: 95%;
+  height: 100%;
   width: 100%;
-  /*background: tomato;*/
-  padding: 0;
+  padding: 3em 3em;
 }
 
 .heading h1 {
   font-weight: bold;
   color: #fff;
-  font-size: 400%;
-  transform: uppercase;
+  font-size: 300%;
+  text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
 
@@ -41,30 +37,12 @@ html, body {
   padding-bottom: 1rem;
 }
 
-.heading img {
-  border-radius: .3rem;
-}
-
-.heading form {
-  display: flex;
+.btn {
   margin-top: 2em;
 }
 
-.heading form input {
-  margin-right: 0.5em;
-  text-align: center;
-  border: 1px solid #ff521e;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: .3rem;
-}
-
-.btn {
-  /*margin-top: 2em;*/
-}
-
 .btn-primary {
-  padding: 0;
+  /*padding: 0;*/
   background-color: #ff521e;
   border: 1px solid #ff521e;
 }
@@ -181,7 +159,6 @@ hr.light-100 {
 @media (max-width: 768px) {
   .navbar {
     padding: 0 15px;
-  }
 
   .display-4 {
     font-size: 200%;
@@ -207,28 +184,6 @@ hr.light-100 {
 [class*="col-"] {
     padding: 0.5rem;
 }
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
 
 
 
